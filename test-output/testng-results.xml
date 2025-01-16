@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-16T11:35:37 IST" name="Suite" finished-at="2025-01-16T11:36:22 IST" duration-ms="45360">
+    <groups>
+    </groups>
+    <test started-at="2025-01-16T11:35:37 IST" name="testing on chrome" finished-at="2025-01-16T11:35:50 IST" duration-ms="13181">
+      <class name="com.OrangeHrm.TestLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHrm.TestLogin@40005471]" started-at="2025-01-16T11:35:37 IST" name="setup" finished-at="2025-01-16T11:35:47 IST" duration-ms="10176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testlogin()[pri:0, instance:com.OrangeHrm.TestLogin@40005471]" started-at="2025-01-16T11:35:47 IST" name="testlogin" finished-at="2025-01-16T11:35:50 IST" duration-ms="2514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.OrangeHrm.TestLogin@40005471]" started-at="2025-01-16T11:35:50 IST" name="quit" finished-at="2025-01-16T11:35:50 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.OrangeHrm.TestLogin -->
+    </test> <!-- testing on chrome -->
+    <test started-at="2025-01-16T11:35:50 IST" name="Testing on firefox" finished-at="2025-01-16T11:36:09 IST" duration-ms="18673">
+      <class name="com.OrangeHrm.TestLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHrm.TestLogin@117e949d]" started-at="2025-01-16T11:35:50 IST" name="setup" finished-at="2025-01-16T11:36:03 IST" duration-ms="12518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testlogin()[pri:0, instance:com.OrangeHrm.TestLogin@117e949d]" started-at="2025-01-16T11:36:03 IST" name="testlogin" finished-at="2025-01-16T11:36:07 IST" duration-ms="4301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.OrangeHrm.TestLogin@117e949d]" started-at="2025-01-16T11:36:07 IST" name="quit" finished-at="2025-01-16T11:36:09 IST" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.OrangeHrm.TestLogin -->
+    </test> <!-- Testing on firefox -->
+    <test started-at="2025-01-16T11:36:09 IST" name="Testing on edge" finished-at="2025-01-16T11:36:22 IST" duration-ms="13336">
+      <class name="com.OrangeHrm.TestLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHrm.TestLogin@5f8edcc5]" started-at="2025-01-16T11:36:09 IST" name="setup" finished-at="2025-01-16T11:36:19 IST" duration-ms="9642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testlogin()[pri:0, instance:com.OrangeHrm.TestLogin@5f8edcc5]" started-at="2025-01-16T11:36:19 IST" name="testlogin" finished-at="2025-01-16T11:36:21 IST" duration-ms="2150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.OrangeHrm.TestLogin@5f8edcc5]" started-at="2025-01-16T11:36:21 IST" name="quit" finished-at="2025-01-16T11:36:22 IST" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.OrangeHrm.TestLogin -->
+    </test> <!-- Testing on edge -->
+  </suite> <!-- Suite -->
+</testng-results>
