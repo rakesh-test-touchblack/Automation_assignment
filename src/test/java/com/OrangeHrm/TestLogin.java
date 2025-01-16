@@ -24,13 +24,14 @@ public class TestLogin extends Launchquit {
 	
 	
 	
-	
 
-	@Test
+
+
+	@Test // will execute every time after each browser
 	void testlogin()
 	{
 		LoginPage lp = new LoginPage(driver);
-		lp.setusername("Admin");
+		lp.setusername("Admin");// calling methods of Loginpage.java class
 		lp.setpassword("admin123");
 		lp.btn_login.click();
 		
@@ -38,7 +39,7 @@ public class TestLogin extends Launchquit {
 		    String actualTitle = driver.getTitle();
 		    System.out.println(actualTitle);
 		    String expectedTitle = "OrangeHRM"; 
-		    Assert.assertEquals(actualTitle, expectedTitle);
+		    Assert.assertEquals(actualTitle, expectedTitle);// asserting the page title after login
 	}
 		
 	
